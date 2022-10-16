@@ -1,0 +1,183 @@
+
+
+/* FONT SETTINGS */
+@font-face {
+    font-family: kumbh-sans;
+    src: url(./Font-Kumbh_Sans/KumbhSans-VariableFont_wght.ttf);
+}
+
+/* ----- CHALLENGE ----- */
+
+/* BODY */
+body {
+    /* border: 1px solid black; */
+    background-color: #19a1ad;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(./images/bg-pattern-bottom.svg), url(./images/bg-pattern-top.svg); */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* CHALLENGE */
+#challenge {
+    /* border: 1px solid black; */
+    background-color: blue;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    width: 350px; 
+    height: 375px;
+    margin: 0;
+}
+
+/* BACKGROUND IMAGE */
+
+#pattern-top {
+    position: absolute;
+    top: -700px;
+    left: -800px;
+    z-index: -1;
+}
+
+#containerX {
+    /* border: 1px solid black; */
+    background-image: url(./Images/bg-pattern-bottom.svg);
+    width: 1000px;
+    height: 550px;
+    position: absolute;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    /* object-fit: fill; */
+    top : 200px;
+    left: 150px;
+    z-index: -1;
+    margin: 0;
+}
+
+/* #pattern-bottom {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    z-index: -1;
+    object-fit:scale-down ;
+} */
+
+    #pattern-card {
+        /* border: 1px solid yellow; */
+        border-radius: 10px 10px 0px 0px;
+        margin: 0;
+    }
+
+    /* BLOC TEXT */
+    #bloc-text {
+        /* border: 1px solid red; */
+        border-radius: 0px 0px 10px 10px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end ;
+        align-items: center;
+        text-align: center;
+        flex-grow: 1;
+    }
+        /* IMAGE VICTOR */
+        #image-victor {
+            border: 6px solid white;
+            border-radius: 100%;
+            position: absolute;
+            top: 90px;
+            left: 120px;
+            margin: 0;
+        }
+
+        /* BLOC MILIEU */
+        #bloc-milieu {
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            flex-grow: 1;
+        }
+        #victor-crest-26 {
+            /* border: 1px solid black; */
+            display: flex;
+            margin: 0;
+        }
+            #victor-crest {
+                /* border: 1px solid black; */
+                color: hsl(229, 23%, 23%);
+                font-family: kumbh-sans;
+                font-size: 18px;
+                font-weight: 700;
+                margin: 0;
+                margin-right: 8px;
+            }
+            #number-26 {
+                /* border: 1px solid black; */
+                color: hsl(227, 10%, 46%);
+                font-family: kumbh-sans;
+                font-size: 18px;
+                font-weight: 400;
+                margin: 0;
+            }
+        #london {
+            /* border: 1px solid black; */
+            font-family: kumbh-sans;
+            font-size: 15px;
+            font-weight: 400;
+            width: 44px;
+            color: hsl(227, 10%, 46%);
+            margin: 0;
+            margin-bottom: 15px;
+            margin-top: 10px;
+        }
+
+        /* LINE */
+        hr {
+            /* border: 0.1px solid red; */
+            color: hsl(0, 0%, 59%);
+            height: 0.5px;
+            width: 350px;
+            margin: 0;
+        }
+
+        /* BLOC BAS */
+        #bloc-bas {
+            /* border: 1px solid black; */
+            width: 350px; 
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 25px 0;
+        }
+            .flex-grow-1 {
+                flex-grow: 1;
+            }
+            .font-bold {
+                /* border: 1px solid black; */
+                color: hsl(229, 23%, 23%);
+                font-family: kumbh-sans;
+                font-size: 18px;
+                font-weight: 700;
+                margin: 0;
+            }
+            .font-light {
+                /* border: 1px solid black; */
+                color: hsl(0, 0%, 59%);
+                font-family: kumbh-sans;
+                font-size: 15px;
+                font-weight: 400;
+                Letter-spacing: 1px;
+                margin: 0;
+            }
